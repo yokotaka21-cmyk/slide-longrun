@@ -1,0 +1,6 @@
+# Office が開いている間に作る一時ファイル
+~$*
+
+# npm でインストールしたライブラリ
+node_modules/
+package-lock.json
