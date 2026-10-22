@@ -11,9 +11,9 @@ const THEME = {
   headFontFace: TITLEF,
   bodyFontFace: BODY,
   colors: {
-    dk1: "23262D", lt1: "FFFFFF", dk2: "16181D", lt2: "F2F3F5",
-    accent1: "EE5A2F", accent2: "2A7F7A", accent3: "F2B33D", accent4: "7C828D",
-    accent5: "FCEDE7", accent6: "E2EFEE", hlink: "16181D", folHlink: "7C828D",
+    dk1: "1E2533", lt1: "FFFFFF", dk2: "0B1F3A", lt2: "F0F2F5",
+    accent1: "B7862B", accent2: "5B7083", accent3: "F2B33D", accent4: "727A86",
+    accent5: "F7EFDF", accent6: "E7ECF1", hlink: "0B1F3A", folHlink: "727A86",
   },
 };
 
@@ -42,13 +42,13 @@ pres.defineSlideMaster({
   title: "CONTENT",
   background: { color: WHITE },
   objects: contentObjects(),
-  slideNumber: { x: 12.3, y: 7.0, w: 0.6, h: 0.3, fontSize: 11, color: "7C828D", fontFace: NUM, align: "right" },
+  slideNumber: { x: 12.3, y: 7.0, w: 0.6, h: 0.3, fontSize: 11, color: "727A86", fontFace: NUM, align: "right" },
 });
 pres.defineSlideMaster({
   title: "WORK",
   background: { color: OTINT },
   objects: contentObjects(),
-  slideNumber: { x: 12.3, y: 7.0, w: 0.6, h: 0.3, fontSize: 11, color: "7C828D", fontFace: NUM, align: "right" },
+  slideNumber: { x: 12.3, y: 7.0, w: 0.6, h: 0.3, fontSize: 11, color: "727A86", fontFace: NUM, align: "right" },
 });
 
 // ---------- helpers ----------
